@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <center>
+        <div class="box">
+            <br>
+            <input type="text" id="inp" disabled>
+            <br>
+        <div class="box2">
+            
+            <button  onclick="Reload()">C</button>
+            <button onclick="Delete()">⌫</button>
+            <button onclick="Display('.')">•</button>
+            <button onclick="Display('/')">/</button>
+            <br>
+            <button onclick="Display('7')">7</button>
+            <button onclick="Display('8')">8</button>
+            <button onclick="Display('9')">9</button>
+            <button onclick="Display('*')">*</button>
+            <br>
+            <button onclick="Display('4')">4</button>
+            <button onclick="Display('5')">5</button>
+            <button onclick="Display('6')">6</button>
+            <button onclick="Display('+')">+</button>
+            <br>
+            <button onclick="Display('1')">1</button>
+            <button onclick="Display('2')">2</button>
+            <button onclick="Display('3')">3</button>
+            <button onclick="Display('-')">-</button>
+            <br>
+            <button onclick="Display('00')">00</button>
+            <button onclick="Display('0')">0</button>
+            <button onclick="CalculateResult('=')">=</button>
+            <button onclick="Display('**')">**</button>
+
+        </div>
+        </div>
+    </center>
+
+    <script src="script.js"></script>
+</body>
+</html>
