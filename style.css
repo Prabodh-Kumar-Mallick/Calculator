@@ -3,7 +3,7 @@ body{
 }
 
 .box{
-    height: 90vh;
+    height: 650px;
     width: 500px;
     background-color:#3a4452;
     border-radius: 10px;
@@ -17,7 +17,7 @@ body{
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     grid-gap: 10px;
-    padding-left: 9.5%;
+    padding-left: 8%;
     
 }
 
