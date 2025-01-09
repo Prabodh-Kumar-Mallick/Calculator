@@ -9,7 +9,7 @@ function CalculateResult(){
     document.getElementById('inp').value = eval(v)
 }
 
-catch(error)
+catch(SyntaxError)
 {
     document.getElementById('inp').value ="Invalid input";
 }
